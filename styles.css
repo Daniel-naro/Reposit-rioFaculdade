@@ -1,0 +1,408 @@
+#nav {
+    color: red;
+    z-index: 2;
+}
+#ulnav {
+    list-style-type: none;
+    background-color: #81cef5;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    border-radius: 10px;
+}
+
+#bannernav {
+   width: 100%;
+   background-color:#434343 ;
+   height: 300;
+   z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+body {
+   margin-left: 300px;
+   margin-right: 300px;
+   justify-content: center;
+   text-align: center;
+
+}
+#divcorpo {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    z-index: 1;
+    margin: 7px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+
+
+}
+#divcorpo h2 {
+    font-size: 30px;
+}
+#divcorpo2 {
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    z-index: 1;
+    margin: 10px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+
+
+}
+#divcorpo img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+#canaisdiv {
+    color: rgb(245, 245, 245);
+    text-align: start;
+    margin: 10px;
+    max-width: 900px;
+    gap: 30px;
+
+}
+#canaisdiv p {
+    width: 400px;
+}
+#canaisdiv h2 {
+    color: rgb(11, 15, 84);
+    text-align: center;
+}
+#canais_body {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+#bannercorpo {
+   width: 100%;
+   height: 450px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(5, 18, 104);
+    top: 0px;
+
+}
+#bannercorpo2 {
+   width: 100%;
+   height: 400px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+}
+#bannercorpo3 {
+    background-color: rgb(241, 241, 241);
+   width: 100%;
+   height: 1400px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+    box-shadow : gray 2px;
+}
+#bannercorpo31 {
+    background-color: rgb(9, 30, 88) ;
+   width: 61%;
+   height: 360px;
+   z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 55px;
+    box-shadow: 0px 1px 10px 1px rgb(52, 50, 50);
+
+    
+}
+#bannercorpo32 {
+    background-color: rgb(88, 149, 253) ;
+   width: 90%;
+   height: 1400px;
+   z-index: -2;
+    position: absolute;
+    border-radius: 10px 100% 0% 0%;
+    margin-top: 40px;
+    left: 0px;
+}
+
+#video1 {
+    right: 0px;
+    
+}
+#canaisdiv2 {
+    margin-top: 100px;
+    margin-left: 10px;
+    color: rgb(245, 245, 245);
+    text-align: start;
+    gap: 30px;
+    font-size: 15px;
+
+}
+#canaisbody {
+    display: flex;
+
+}
+#bannercorpo4 {
+    background-color: rgb(9, 30, 88) ;
+   width: 61%;
+   height: 340px;
+   z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 75px;
+    box-shadow: 0px 1px 10px 1px rgb(52, 50, 50);
+}
+
+#bannercorpo5 {
+    background-color: rgb(9, 30, 88) ;
+   width: 61%;
+   height: 350px;
+   z-index: -1;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 90px;
+    box-shadow: 0px 1px 10px 1px rgb(52, 50, 50);
+}
+
+
+#topic1 {
+    color: white;
+    margin-top: 40px;
+    height: 500px;
+    text-align: start;
+    font-size: 15px;
+}
+
+#topic2 {
+     color: rgb(0, 0, 0);
+    height: 300px;
+    margin-top: -100px;
+    text-align: end;
+    font-size: 15px;
+    
+}
+
+#topic3 {
+     color: white;
+    margin-top: 30px;
+    height: 470px;
+    text-align: start;
+    font-size: 15px;
+    
+    
+}
+
+#topic4 {
+       color: rgb(0, 0, 0);
+    height: 380px;
+    margin-top: -100px;
+    text-align: end;
+    font-size: 15px;
+
+    
+}
+
+#topic5 {
+     color: white;
+    margin-top: 0px;
+    height: 500px;
+    margin-bottom: 90px;
+    text-align: start;
+    font-size: 15px;
+    
+}
+
+#bntopic1 {
+   background-color:rgb(4, 15, 85);
+   width: 90%;
+   height: 370px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+}
+
+#bntopic {
+   background-color:rgb(4, 15, 85);
+   width: 90%;
+   height: 150px;
+   z-index: -2;
+    position: absolute;
+    right: 0px;
+    border-radius: 10px;
+}
+#bntopic3 {
+   background-color:rgb(4, 15, 85);
+   width: 90%;
+   height: 370px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+}
+#bntopic {
+   background-color: rgb(4, 15, 85);
+   width: 90%;
+   height: 150px;
+   z-index: -2;
+    position: absolute;
+    right: 0px;
+    border-radius: 10px;
+}
+#bntopic5 {
+    background-color:rgb(4, 15, 85);
+   width: 90%;
+   height: 350px;
+   z-index: -2;
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+}
+#comparativa-space {
+    min-height: 300px;
+    margin-top: 20px;
+}
+#titulo-tabela {
+    z-index: 1;
+    position: absolute;
+    top: 2800px;
+    left: 650px;
+    font-size: 25px;
+    color: rgb(4, 15, 85);
+    margin-top: 20px;
+
+}
+#comparativa {
+    gap: 10px;
+   left: 25px;
+   position: absolute;
+   top: 2950px;
+   display: flex;
+
+}
+
+#comparativa1 {
+    min-width: 200px;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+    background-color: rgb(199, 219, 249);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#lista-1 {
+    font-size: 17px;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+#lista-1-h3 {
+    color: rgb(24, 8, 74);
+}
+#perfilp +h3 {
+    color: aliceblue;
+}
+
+
+#imgtp1 {
+    width: 15%;
+    position: absolute;
+   right: 210px;
+   top: 1010px;
+}
+#imgtp2 {
+    width: 15%;
+    position: absolute;
+   left: 30px;
+
+}
+#imgtp3 {
+    width: 15%;
+    position: absolute;
+   right: 190px;
+   top: 1750px;
+
+}
+#imgtp4 {
+    width: 15%;
+    position: absolute;
+   left: 30px;
+
+}
+#imgtp5 {
+    width: 15%;
+    position: absolute;
+   right: 210px;
+   top: 2540px;
+
+}
+
+#comentario {
+    width: 650px;
+    margin-left: 140px;
+    height: 500px;
+    color: aliceblue;
+    font-size: 18px;
+    margin-top: 100px;
+
+
+}
+#banner-comentario {
+    background-color:rgb(4, 15, 85);
+    position:absolute;
+    height: 400px;
+    width: 700px;
+    top: 3400px;
+    z-index: -1;
+    border-radius: 10px;
+    margin-left: -20px;
+}
+#banner-comentario2 {
+    background-color: rgb(5, 5, 53);
+    position:absolute;
+    height: 420px;
+    width: 700px;
+    top: 3420px;
+    z-index: -2;
+    border-radius: 20px;
+    margin-left: -50px;
+}
+#comentario-img {
+    position: absolute;
+    width: 9%;
+    top: 3350px;
+    right: 420px;
+}
+
+#integ {
+    position: absolute;
+    margin-top: 210px;
+    right: 0px;
+    width: 100%;
+    height: 100px;
+    background-color:rgb(16, 6, 48);
+    color: aliceblue;
+}
+#integ-li {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    justify-content: center;
+}
