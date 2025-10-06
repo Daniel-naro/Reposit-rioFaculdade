@@ -395,7 +395,7 @@ ul {
     margin-top: 210px;
     right: 0px;
     width: 100%;
-    height: 100px;
+    height: 200px;
     background-color:rgb(16, 6, 48);
     color: aliceblue;
 }
@@ -405,4 +405,14 @@ ul {
     gap: 30px;
     margin-left: 20px;
     justify-content: center;
+}
+#integ-link {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+    justify-content: center;
+    position: absolute;
+    top: 5400px;
+    color: white;
 }
